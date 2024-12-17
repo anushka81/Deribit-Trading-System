@@ -19,15 +19,7 @@
 #include <string> // string, stoi, to_string
 #include <utility> // declval, forward, move, pair, swap
 #include <vector> // vector
-
-// #include <nlohmann/adl_serializer.hpp>
-
-
 #include <utility>
-
-// #include <nlohmann/detail/conversions/from_json.hpp>
-
-
 #include <algorithm> // transform
 #include <array> // array
 #include <ciso646> // and, not
@@ -40,17 +32,9 @@
 #include <unordered_map> // unordered_map
 #include <utility> // pair, declval
 #include <valarray> // valarray
-
-// #include <nlohmann/detail/exceptions.hpp>
-
-
 #include <exception> // exception
 #include <stdexcept> // runtime_error
 #include <string> // to_string
-
-// #include <nlohmann/detail/input/position_t.hpp>
-
-
 #include <cstddef> // size_t
 
 namespace nlohmann
