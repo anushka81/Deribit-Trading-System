@@ -421,8 +421,8 @@ void tradingMenu(const std::string &token)
 
 int main()
 {
-    const std::string clientId = "bbe837kG";
-    const std::string clientSecret = "Xh0pefOT_ZzoiOepncjvEfw6X3Nctv-mzIfmk3r4qR0";
+    const std::string clientId = "my_client_id";
+    const std::string clientSecret = "my_client_secret";
 
     std::string token = fetchAccessToken(clientId, clientSecret);
     if (!token.empty())
