@@ -80,7 +80,7 @@ std::string makeHttpRequest(const std::string &endpoint, const json &requestBody
     return response;
 }
 
-// Function to obtain an access token with error handling
+// Function to obtain an access token 
 std::string fetchAccessToken(const std::string &clientId, const std::string &clientSecret)
 {
     json authPayload = {
@@ -108,7 +108,7 @@ std::string fetchAccessToken(const std::string &clientId, const std::string &cli
     }
 }
 
-// Function to submit an order with error handling
+// Function to submit an order
 void submitOrder(const std::string &token)
 {
     std::string instrument;
@@ -146,7 +146,7 @@ void submitOrder(const std::string &token)
     }
 }
 
-// Function to cancel an existing order with error handling
+// Function to cancel an existing order 
 void cancelExistingOrder(const std::string &token)
 {
     std::string orderId;
@@ -169,7 +169,7 @@ void cancelExistingOrder(const std::string &token)
     std::cout << "Cancel Response: " << response << std::endl;
 }
 
-// Function to fetch the order book for a specific instrument with error handling and retry logic
+// Function to fetch the order book for a specific instrument 
 void getOrderBook()
 {
     std::string instrument;
@@ -242,7 +242,7 @@ void getOrderBook()
     }
 }
 
-// Function to get position details of a specific instrument with error handling and retry logic
+// Function to get position details of a specific instrument 
 void viewPositions(const std::string &accessToken)
 {
     std::string instrument;
@@ -326,7 +326,7 @@ void listInstruments()
     }
 }
 
-// Function to modify an existing order with error handling and retry logic
+// Function to modify an existing order
 void modifyOrder(const std::string &token)
 {
     std::string orderId;
